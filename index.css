@@ -117,7 +117,7 @@ body{
 	padding:0px 10%;
 }
 .zagalovok{
-	height: 90px;	
+	height: 133px;	
     font-size: 30px;
     justify-content: space-around;	
     display: flex;
@@ -143,12 +143,23 @@ footer a:hover{
 	text-decoration: none;
 }
 .zapros{
-    display: inline-block;
+    /*display: inline-block;
     padding-top: 10px;
 	font-style: italic;
 	font-weight: 900;	
     font-size: 180%;
     justify-content: space-around;
+    margin-left: 370px;*/
+    background-color: #fafafa;
+	border:5px solid #e0e0e0;
+	width: 940px;
+	height: 210px;
+	display: flex;
+	align-items: center;
+	padding: 25px;
+	flex-wrap: wrap;
+	justify-content: center;
+
 
 
 }
@@ -172,7 +183,29 @@ input{
     font-style: italic;
 	font-weight: 900;
 	font-size: 150%;
+	margin-left: 150px;
+	margin-right: 70px;
+	justify-content: center;
+	
+}
+	
 
+button{
+	border-radius: 10px;
+	width: 250px;
+	height: 50px;
+	background-color: #c79e73;
+	color:white;
+	outline:none;
+	border:none;
 }
 
-	
+.form{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.span{
+	margin-top: 150px;
+}
