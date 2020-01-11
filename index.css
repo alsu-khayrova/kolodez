@@ -74,7 +74,7 @@ justify-content: space-around;
 	display: block;
 }
 
-.fa-shopping-cart ul, .fa-th-list ul{
+.fa-shopping-cart ul, .fa-th-list ul, .fa-fa-money ul, .fa-fa-home ul{
 	position: absolute;
 	display: none;
 	list-style: none;
@@ -84,22 +84,23 @@ justify-content: space-around;
 	z-index: 10;
 	border: 1px solid white;
 }
-.fa-shopping-cart li:hover, .fa-th-list li:hover{
+.fa-shopping-cart li:hover, .fa-th-list li:hover, .fa-fa-money li:hover, .fa-fa-home li:hover{
 	background-color: white;
 }
-.fa-shopping-cart li:hover a, .fa-th-list li:hover a{
+.fa-shopping-cart li:hover a, .fa-th-list li:hover a, .fa-fa-money:hover a, .fa-fa-home:hover a{
 	color:black;
 
 }
-.fa-shopping-cart li, .fa-th-list li{
+.fa-shopping-cart li, .fa-th-list li, .fa-fa-money li, .fa-fa-home li{
 padding: 15px;
 }
-.fa-shopping-cart a, .fa-th-list a{
+.fa-shopping-cart a, .fa-th-list a, .fa-fa-money a, .fa-fa-home a{
 	color: white;
 	margin: 15px;
 }
 
-.item{	
+.item{
+height: 20px;	
 padding:10px;
 background-color: #64b5f6;
 flex-grow: 1;
@@ -145,8 +146,7 @@ footer a:hover{
     display: inline-block;
     padding-top: 10px;
 	font-style: italic;
-	font-weight: 900;
-	height: 90px;	
+	font-weight: 900;	
     font-size: 180%;
     justify-content: space-around;
 
