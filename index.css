@@ -19,8 +19,13 @@ header{
 height: 110px;	
 display: flex;
 justify-content: space-around;
+}
+
+.img/logo.png{
+	width: 100px;
 
 }
+
 body{
 	background: #edd19c;
 }
