@@ -117,15 +117,17 @@ body{
 	padding:0px 10%;
 }
 .zagalovok{
-	height: 133px;	
+	height: 175px;	
     font-size: 30px;
     justify-content: space-around;	
     display: flex;
     background: #c79e73;
+    text-align: center;
 }
 footer{
 	background: #64b5f6;
 	height:60px;
+	width: 1000px;
 	text-align: center;
 	padding-top: 25px;
 	box-sizing: border-box;
@@ -186,6 +188,7 @@ input{
 	margin-left: 150px;
 	margin-right: 70px;
 	justify-content: center;
+	text-align: center;
 	
 }
 	
@@ -205,7 +208,4 @@ button{
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
-}
-.span{
-	margin-top: 150px;
 }
